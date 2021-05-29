@@ -1,0 +1,16 @@
+{
+  "name": "devotee",
+  "version": "1.0.0",
+  "description": "Devotee Applications",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "author": "Sachin Rathod",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mssql": "^7.1.0",
+    "nodemon": "^2.0.7"
+  }
+}
