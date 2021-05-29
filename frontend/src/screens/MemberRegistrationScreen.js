@@ -25,7 +25,7 @@ const MemberRegistrationScreen = () => {
           </Button>
           <LinkContainer to='/ForgotPassword'>
             <Nav.Link>
-              Forgot <i className='forgot-password'></i> password?
+              Forgot <i className='forgot-password'></i> password?.
             </Nav.Link>
           </LinkContainer>
         </Form>
