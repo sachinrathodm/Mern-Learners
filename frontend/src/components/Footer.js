@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <Container>
         <Row>
-          <Col className='text-center py-3'>CopyRight &copy; Devotee App</Col>
+          <Col className='text-center py-3'>CopyRight &copy; Learner App</Col>
         </Row>
       </Container>
     </footer>

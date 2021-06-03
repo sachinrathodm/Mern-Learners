@@ -8,7 +8,7 @@ const Header = () => {
       <Navbar bg='dark' variant='dark' expand='lg'>
         <Container>
           <LinkContainer to='/'>
-            <Navbar.Brand>Devotee App</Navbar.Brand>
+            <Navbar.Brand>Learner App</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
@@ -17,7 +17,7 @@ const Header = () => {
                 <Nav.Link>
                   <i className='fas fa-shopping-cart'></i> Cart
                 </Nav.Link>
-              </LinkContainer>
+              </LinkContainer>{' '}
               <LinkContainer to='/login'>
                 <Nav.Link>
                   <i className='fas fa-user'></i> Sign In

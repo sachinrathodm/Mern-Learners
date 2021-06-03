@@ -8,7 +8,6 @@ const MemberRegistrationScreen = () => {
       <Col md={5} />
       <Col md={3}>
         <Form>
-          girt
           <Form.Group controlId='formBasicEmail'>
             <Form.Label>Email address</Form.Label>
             <Form.Control type='email' placeholder='Enter email' />
@@ -23,9 +22,14 @@ const MemberRegistrationScreen = () => {
           <Button variant='primary' type='submit' className='m-2'>
             Submit
           </Button>
-          <LinkContainer to='/ForgotPassword'>
+          <LinkContainer to='/forgotpassword'>
             <Nav.Link>
-              Forgot <i className='forgot-password'></i> password?.
+              Forgot <i className='forgot-password'></i> password?
+            </Nav.Link>
+          </LinkContainer>
+          <LinkContainer to='/signup'>
+            <Nav.Link>
+              <i className='ms-auto'></i> Create New Account?
             </Nav.Link>
           </LinkContainer>
         </Form>
