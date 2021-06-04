@@ -19,6 +19,7 @@ class MainController {
   //add Member
   async MemberaddNewData(req, res) {
     try {
+      console.log(req.body)
       if (
         req.body.Member_FirstName != null &&
         req.body.Member_LastName != null &&

@@ -2,14 +2,12 @@ import React from 'react'
 import { LinkContainer } from 'react-router-bootstrap'
 import { Form, Row, Col, Button, Nav } from 'react-bootstrap'
 
-
-ra
 const SignUpScreen = () => {
   return (
     <Row>
       <Col md={5} />
       <Col md={3}>
-        <Form>
+        <Form method='POST' action='http://localhost:5000/members'>
           <Form.Group controlId='FirstName'>
             <Form.Label>First Name</Form.Label>
             <Form.Control type='text' placeholder='First Name' />
